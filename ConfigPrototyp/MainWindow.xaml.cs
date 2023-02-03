@@ -124,8 +124,8 @@ namespace ConfigPrototyp
             //string filetype = TbFiletype.Text;
             string filetype = "*." + TbFiletype.Text;
             string filepath = dataPath.Text;
-
-
+            Dictionary<string, Output> output = new Dictionary<string, Output>();
+            List<string> fileList = new List<string>();
 
             string ignorefile = IgnoreFile.CreateIgnoreFile(filepath);
 
@@ -135,10 +135,10 @@ namespace ConfigPrototyp
 
 
             // Get all files in the directory
-            GetFileList.GetFileNames(filepath, filetype, out List<string> fileList);
+            GetFileList.GetFileNames(filepath, filetype, fileList);
             FilesAdd.Files(fileList, ignorefile, out List<FilesRead> files);
 
-            DuplicateCheck.DoubleCheck(files, out Dictionary<string, Output> output);
+            DuplicateCheck.DoubleCheck(files, output);
             List<WritetoGrid> final = new List<WritetoGrid>();
 
 

@@ -115,5 +115,11 @@
   <ItemGroup>
     <Resource Include="Class\image\logo.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassesDuplikate\ClassesDuplikate.csproj">
+      <Project>{4a697724-ed01-4bf9-a0cc-39f66025a8d1}</Project>
+      <Name>ClassesDuplikate</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
