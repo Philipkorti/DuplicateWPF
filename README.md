@@ -1,6 +1,6 @@
 # DuplicateWPF
 
-DuplicateWPF is a program that lets you find lines that are duplicates across multiple files.
+DuplicateWPF is a program that lets you find duplicate lines across multiple files.
 
 ## Installation
 
