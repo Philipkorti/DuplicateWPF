@@ -4,7 +4,7 @@
     <projectFile>ConfigPrototyp/ConfigPrototyp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c875848a-fca3-4eb6-bee1-a71b6361bebd" name="Changes" comment="Delete DDL" />
+    <list default="true" id="c875848a-fca3-4eb6-bee1-a71b6361bebd" name="Changes" comment="workspace" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +94,7 @@
       <workItem from="1675673060196" duration="413000" />
       <workItem from="1675673645456" duration="41000" />
       <workItem from="1676273232677" duration="2492000" />
-      <workItem from="1676276552368" duration="323000" />
+      <workItem from="1676276552368" duration="698000" />
     </task>
     <task id="LOCAL-00001" summary="Unittest">
       <created>1676276321027</created>
@@ -117,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676276729456</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".name">
+      <created>1676276910504</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676276910504</updated>
+    </task>
+    <task id="LOCAL-00005" summary="workspace">
+      <created>1676276924358</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676276924358</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +144,9 @@
     <MESSAGE value="Unittest" />
     <MESSAGE value="Add" />
     <MESSAGE value="Delete DDL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete DDL" />
+    <MESSAGE value=".name" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
