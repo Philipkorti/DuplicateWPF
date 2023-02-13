@@ -4,7 +4,27 @@
     <projectFile>ConfigPrototyp/ConfigPrototyp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c875848a-fca3-4eb6-bee1-a71b6361bebd" name="Changes" comment="workspace" />
+    <list default="true" id="aee9800f-b5a6-411a-bf56-f584f4b53312" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/UnitTest/DoubleCheckTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTest/DubleCheckTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTest/DuplicateNumber.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConfigPrototyp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConfigPrototyp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassesDuplikate/Services/DuplicateCheck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesDuplikate/Services/DuplicateCheck.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassesDuplikate/Services/GetFileList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesDuplikate/Services/GetFileList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/bin/Debug/ConfigPrototyp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/bin/Debug/ConfigPrototyp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/bin/Debug/ConfigPrototyp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/bin/Debug/ConfigPrototyp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp_MarkupCompile.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTest/FileListTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/FileListTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTest/UnitTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/UnitTest.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +39,8 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/578d960b41204f0aa9038fac387556e95227a0/87/dfaa2428/AppDomain.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/578d960b41204f0aa9038fac387556e95227a0/a7/d7cad445/Directory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90ee3cbb9dbb439fb2a3106cefde0581564d90/3f/0b664af8/Path.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/435f965090c5b89f0c5efb49ac3c5a72367d90599314191af25a832d0942f/CollectionAsserts.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f5545b2656401abe1a371ad2756d7d2328a38293f7ee8b163801bbf55cee8/TestInvoker.cs" root0="SKIP_HIGHLIGHTING" />
@@ -27,6 +49,7 @@
     <setting file="file://$PROJECT_DIR$/ClassesDuplikate/Services/GetFileList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClassesDuplikate/Services/Log.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConfigPrototyp/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UnitTest/FileListTest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -81,7 +104,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c875848a-fca3-4eb6-bee1-a71b6361bebd" name="Changes" comment="" />
+      <changelist id="aee9800f-b5a6-411a-bf56-f584f4b53312" name="Changes" comment="" />
       <created>1675632422303</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -95,6 +118,9 @@
       <workItem from="1675673645456" duration="41000" />
       <workItem from="1676273232677" duration="2492000" />
       <workItem from="1676276552368" duration="698000" />
+      <workItem from="1676298078982" duration="1721000" />
+      <workItem from="1676312348913" duration="1563000" />
+      <workItem from="1676317777030" duration="343000" />
     </task>
     <task id="LOCAL-00001" summary="Unittest">
       <created>1676276321027</created>
@@ -139,6 +165,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Unittest" />
@@ -147,6 +184,38 @@
     <MESSAGE value=".name" />
     <MESSAGE value="workspace" />
     <option name="LAST_COMMIT_MESSAGE" value="workspace" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ConfigPrototyp/MainWindow.xaml.cs</url>
+          <line>120</line>
+          <properties documentPath="C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\Duplicate\ConfigPrototyp\MainWindow.xaml.cs" initialLine="120" containingFunctionPresentation="method 'Start'">
+            <startOffsets>
+              <option value="4543" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4584" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ConfigPrototyp/MainWindow.xaml.cs</url>
+          <line>32</line>
+          <properties documentPath="C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\Duplicate\ConfigPrototyp\MainWindow.xaml.cs" initialLine="32" containingFunctionPresentation="constructor 'MainWindow'">
+            <startOffsets>
+              <option value="936" />
+            </startOffsets>
+            <endOffsets>
+              <option value="937" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

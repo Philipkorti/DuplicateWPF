@@ -11,38 +11,25 @@ namespace UnitTest
         [Fact]
         public void AddTest_GetFiles()
         {
-
-            string currentprpath = AppDomain.CurrentDomain.BaseDirectory + @"\..\..";
-            string fileending = ".cs";
+            string workingDirectory = Environment.CurrentDirectory;
+            string currentprpath = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
+            string fileending = "*.cs";
             List<string> fileList = new List<string>();
-
-
-            GetFileList.GetFileNames(currentprpath, fileending, fileList);
+            GetFileList.GetFileNames(currentprpath, fileending, out fileList);
 
             Assert.NotEmpty(fileList);
         }
-
-
+        
         [Fact]
-
-        public void CheckCurrentpath0()
+        public void CheckCurrentpath()
         {
-
             string currentprpath = "";
-            string fileending = ".cs";
+            string fileending = "*.cs";
             List<string> fileList = new List<string>();
-            
-                foreach (string file in Directory.GetFiles(currentprpath, fileending, SearchOption.AllDirectories))
-                {
 
-                    fileList.Add(file);
-
-                }
-
-                GetFileList.GetFileNames(currentprpath, fileending, fileList);
-                
+            Assert.Throws<ArgumentException>(() =>
+                Directory.GetFiles(currentprpath, fileending, SearchOption.AllDirectories));
         }
-
         [Fact]
 
         public void Checkfileending0()
@@ -59,7 +46,7 @@ namespace UnitTest
 
             }
 
-            GetFileList.GetFileNames(currentprpath, fileending, fileList);
+            GetFileList.GetFileNames(currentprpath, fileending, out fileList);
             Assert.Empty(fileList);
         }
     }

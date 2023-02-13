@@ -16,7 +16,7 @@ namespace ClassFiles.Classes
         /// <param name="currentprpath"></param>
         /// <param name="fileending"></param>
         /// <returns></returns>
-        public static void GetFileNames(string currentprpath, string fileending, List<string> fileList)
+        public static void GetFileNames(string currentprpath, string fileending, out List<string> fileList)
         {
 
             // List os filepaths

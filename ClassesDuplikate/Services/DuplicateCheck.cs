@@ -15,7 +15,7 @@ namespace ClassFiles.Services
         /// </summary>
         /// <param name="files">A list of files</param>
         /// <param name="output">The output</param>
-        public static void DoubleCheck(List<FilesRead> files, Dictionary<string, Output> output)
+        public static void DoubleCheck(List<FilesRead> files, out Dictionary<string, Output> output)
         {
             // Test1: null
            // Test2: null Eintrag
@@ -73,13 +73,20 @@ namespace ClassFiles.Services
                     }
                     else
                     {
-                        OutputAdd(output, firstFileText, firstFile);
+                        if (!output[firstFileText.FileText].FileName.Contains(firstFile.FileInfo))
+                        {
+                            OutputAdd(output, firstFileText, firstFile);
+                        }
                     }
                 }
             }
             else
             {
-                OutputAdd(output, firstFileText, firstFile);
+                if (!output[firstFileText.FileText].FileName.Contains(firstFile.FileInfo))
+                {
+                   OutputAdd(output, firstFileText, firstFile);
+                }
+                
             }
         }
     }

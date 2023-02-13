@@ -5,14 +5,15 @@ using System.Configuration;
 using System.Windows;
 using System.Windows.Forms;
 using ClassFiles;
-using ClassFiles.Services;
-using ClassFiles.Classes;
 using System.Windows.Controls;
 using DataGrid = System.Windows.Controls.DataGrid;
 using System;
 using System.Reflection;
 using System.IO;
 using System.Windows.Documents;
+using ClassFiles;
+using ClassFiles.Classes;
+using ClassFiles.Services;
 
 namespace ConfigPrototyp
 {
@@ -27,12 +28,7 @@ namespace ConfigPrototyp
         /// Initializes a new instance of the <see cref="MainWindow" /> class.
         /// </summary>
         ///
-
-
         bool check = true;
-
-       
-
         public MainWindow()
         {
             this.InitializeComponent();
@@ -128,20 +124,11 @@ namespace ConfigPrototyp
             List<string> fileList = new List<string>();
 
             string ignorefile = IgnoreFile.CreateIgnoreFile(filepath);
-
-
-
-
-
-
             // Get all files in the directory
-            GetFileList.GetFileNames(filepath, filetype, fileList);
+            GetFileList.GetFileNames(filepath, filetype, out fileList);
             FilesAdd.Files(fileList, ignorefile, out List<FilesRead> files);
-
-            DuplicateCheck.DoubleCheck(files, output);
+            DuplicateCheck.DoubleCheck(files, out output);
             List<WritetoGrid> final = new List<WritetoGrid>();
-
-
             foreach (KeyValuePair<string, Output> variable in output)
             {
                 string filenames = "";
@@ -161,8 +148,6 @@ namespace ConfigPrototyp
 
         private void hideandshow_Click(object sender, RoutedEventArgs e)
         {
-           
-
             if (check)
             {
                
@@ -175,7 +160,6 @@ namespace ConfigPrototyp
                 check = true;
 
             }
-
         }
 
         private void Wrap_Loaded(object sender, RoutedEventArgs e)
@@ -268,7 +252,7 @@ namespace ConfigPrototyp
                     System.Windows.Controls.TextBox textbox = new System.Windows.Controls.TextBox();
                     textbox.BorderThickness = new Thickness(0);
 
-                    if (updatedArray[k].Contains(duplicateValue))
+                    if (updatedArray[k].ToLower().Contains(duplicateValue))
                     {
                         textbox.Foreground = mediaBrush;
                         textbox.Text = updatedArray[k];
