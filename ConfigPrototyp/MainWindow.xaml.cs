@@ -55,7 +55,7 @@ namespace ConfigPrototyp
             string[] sA;
             string filetype = fileTyp.Text;
             string filepath = dataPath.Text;
-
+            
             WpfMethods c = new WpfMethods();
             //update the Config File
             c.Update(filetype, filepath);

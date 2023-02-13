@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.IO;
 using ClassFiles.Classes;
 
@@ -15,7 +11,6 @@ namespace ClassFiles
         private FileInfo fileInfo;
 
         private List<Text> fileText;
-
         #endregion
 
         #region ------ Properties-----
