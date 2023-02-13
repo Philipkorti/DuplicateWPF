@@ -1,0 +1,109 @@
+C:\Users\marti\Desktop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\bin\Debug\ConfigPrototyp.exe.config
+C:\Users\marti\Desktop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\bin\Debug\ConfigPrototyp.exe
+C:\Users\marti\Desktop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\bin\Debug\ConfigPrototyp.pdb
+C:\Users\marti\Desktop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.AssemblyReference.cache
+C:\Users\marti\Desktop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\MainWindow.g.cs
+C:\Users\marti\Desktop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\App.g.cs
+C:\Users\marti\Desktop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp_MarkupCompile.cache
+C:\Users\marti\Desktop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp_MarkupCompile.lref
+C:\Users\marti\Desktop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\MainWindow.baml
+C:\Users\marti\Desktop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.g.resources
+C:\Users\marti\Desktop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.Properties.Resources.resources
+C:\Users\marti\Desktop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.GenerateResource.cache
+C:\Users\marti\Desktop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.exe
+C:\Users\marti\Desktop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.pdb
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\bin\Debug\ConfigPrototyp.exe.config
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\bin\Debug\ConfigPrototyp.exe
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\bin\Debug\ConfigPrototyp.pdb
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.AssemblyReference.cache
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\MainWindow.g.cs
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\App.g.cs
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp_MarkupCompile.cache
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp_MarkupCompile.lref
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\MainWindow.baml
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.g.resources
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.Properties.Resources.resources
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.GenerateResource.cache
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.exe
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.pdb
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\bin\Debug\log4net.dll
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\bin\Debug\log4net.xml
+C:\Users\marti\Desktop\Schule\Alter Laptop\HTL Moedling\2021-2022\Zweites Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.CopyComplete
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\bin\Debug\ConfigPrototyp.exe.config
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\bin\Debug\ConfigPrototyp.exe
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\bin\Debug\ConfigPrototyp.pdb
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\bin\Debug\DuplicateFinderDLL.dll
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\bin\Debug\log4net.dll
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\bin\Debug\log4net.xml
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.AssemblyReference.cache
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\MainWindow.g.cs
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\App.g.cs
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp_MarkupCompile.cache
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp_MarkupCompile.lref
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\MainWindow.baml
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.g.resources
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.Properties.Resources.resources
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.GenerateResource.cache
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.CoreCompileInputs.cache
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.CopyComplete
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.exe
+C:\Users\Phil\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.pdb
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\bin\Debug\ConfigPrototyp.exe.config
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\bin\Debug\ConfigPrototyp.exe
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\bin\Debug\ConfigPrototyp.pdb
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\bin\Debug\log4net.dll
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\bin\Debug\log4net.xml
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.AssemblyReference.cache
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\MainWindow.g.cs
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\App.g.cs
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp_MarkupCompile.cache
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp_MarkupCompile.lref
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\MainWindow.baml
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.g.resources
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.Properties.Resources.resources
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.GenerateResource.cache
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.CoreCompileInputs.cache
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.CopyComplete
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.exe
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.pdb
+C:\Users\thaib\OneDrive\Desktop\ConfigPrototyp\ConfigPrototyp\bin\Debug\DuplicateFinderDLL.dll
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\bin\Debug\ConfigPrototyp.exe.config
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\bin\Debug\ConfigPrototyp.exe
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\bin\Debug\ConfigPrototyp.pdb
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\bin\Debug\log4net.dll
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\bin\Debug\log4net.xml
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.AssemblyReference.cache
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\MainWindow.g.cs
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\App.g.cs
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp_MarkupCompile.cache
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp_MarkupCompile.lref
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\MainWindow.baml
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.g.resources
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.Properties.Resources.resources
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.GenerateResource.cache
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.CoreCompileInputs.cache
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.CopyComplete
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.exe
+C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\ConfigPrototyp\ConfigPrototyp\obj\Debug\ConfigPrototyp.pdb
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\bin\Debug\ConfigPrototyp.exe.config
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\bin\Debug\ConfigPrototyp.exe
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\bin\Debug\ConfigPrototyp.pdb
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\bin\Debug\log4net.dll
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\bin\Debug\log4net.xml
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.AssemblyReference.cache
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.SuggestedBindingRedirects.cache
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\obj\Debug\MainWindow.g.cs
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\obj\Debug\App.g.cs
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\obj\Debug\ConfigPrototyp_MarkupCompile.cache
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\obj\Debug\ConfigPrototyp_MarkupCompile.lref
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\obj\Debug\MainWindow.baml
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\obj\Debug\ConfigPrototyp.g.resources
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\obj\Debug\ConfigPrototyp.Properties.Resources.resources
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.GenerateResource.cache
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.CoreCompileInputs.cache
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.CopyComplete
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\obj\Debug\ConfigPrototyp.exe
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\obj\Debug\ConfigPrototyp.pdb
