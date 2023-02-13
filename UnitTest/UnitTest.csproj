@@ -56,11 +56,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DoubleCheckTest.cs" />
-    <Compile Include="LinesAddTest.cs" />
-    <Compile Include="DuplicateNumber.cs" />
-    <Compile Include="FileListTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\DoubleCheckTest.cs" />
+    <Compile Include="Tests\DuplicateNumber.cs" />
+    <Compile Include="Tests\FileListTest.cs" />
+    <Compile Include="Tests\LinesAddTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

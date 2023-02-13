@@ -12,7 +12,6 @@ namespace UnitTest
 {
     public class DoubleCheckTest
     {
-
         [Fact]
         public void OutputAdd_CorrectlyUpdatesDuplicateData()
         {
