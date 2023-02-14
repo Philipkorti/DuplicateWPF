@@ -128,3 +128,5 @@ C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\Duplic
 C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\Duplicate\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.CopyComplete
 C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\Duplicate\ConfigPrototyp\obj\Debug\ConfigPrototyp.exe
 C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\Duplicate\ConfigPrototyp\obj\Debug\ConfigPrototyp.pdb
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\bin\Debug\ClassesDuplikate.dll
+C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\bin\Debug\ClassesDuplikate.pdb
