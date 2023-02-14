@@ -4,11 +4,15 @@
     <projectFile>ConfigPrototyp/ConfigPrototyp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aee9800f-b5a6-411a-bf56-f584f4b53312" name="Changes" comment="Bug fixes Color highlighting and DoubleCheck doubel entrie of the same file. Add Tests for DoubleCheck. Rename LinesAddTest.">
+    <list default="true" id="aee9800f-b5a6-411a-bf56-f584f4b53312" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConfigPrototyp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConfigPrototyp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp_MarkupCompile.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest/DoubleCheckTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/DoubleCheckTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest/UnitTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/UnitTest.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/bin/Debug/ConfigPrototyp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/bin/Debug/ConfigPrototyp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/bin/Debug/ConfigPrototyp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/bin/Debug/ConfigPrototyp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTest/Tests/DoubleCheckTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/Tests/DoubleCheckTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +33,15 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/578d960b41204f0aa9038fac387556e95227a0/a7/d7cad445/Directory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90ee3cbb9dbb439fb2a3106cefde0581564d90/3f/0b664af8/Path.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/435f965090c5b89f0c5efb49ac3c5a72367d90599314191af25a832d0942f/CollectionAsserts.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5a51d9255deacb61417b8ccecf3596481c1e97f016a8b07835f0c5be6ded/Record.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9ba71596a5a0485cfe349ca0946d8092d25a69b4d3dad4374f80ef8d4d5a9dd4/ExceptionAsserts.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f5545b2656401abe1a371ad2756d7d2328a38293f7ee8b163801bbf55cee8/TestInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClassesDuplikate/Classes/FilesRead.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClassesDuplikate/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClassesDuplikate/Services/GetFileList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClassesDuplikate/Services/Log.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConfigPrototyp/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/UnitTest/FileListTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UnitTest/Tests/FileListTest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -106,7 +112,8 @@
       <workItem from="1676276552368" duration="698000" />
       <workItem from="1676298078982" duration="1721000" />
       <workItem from="1676312348913" duration="1563000" />
-      <workItem from="1676317777030" duration="1043000" />
+      <workItem from="1676317777030" duration="1138000" />
+      <workItem from="1676358046655" duration="1276000" />
     </task>
     <task id="LOCAL-00001" summary="Unittest">
       <created>1676276321027</created>
@@ -150,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676318487318</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Folder for Unit Tests">
+      <created>1676318884464</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676318884464</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +191,8 @@
     <MESSAGE value=".name" />
     <MESSAGE value="workspace" />
     <MESSAGE value="Bug fixes Color highlighting and DoubleCheck doubel entrie of the same file. Add Tests for DoubleCheck. Rename LinesAddTest." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixes Color highlighting and DoubleCheck doubel entrie of the same file. Add Tests for DoubleCheck. Rename LinesAddTest." />
+    <MESSAGE value="Add Folder for Unit Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Folder for Unit Tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -207,6 +222,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/UnitTest/Tests/DuplicateNumber.cs</url>
+          <line>22</line>
+          <properties documentPath="C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\Duplicate\UnitTest\Tests\DuplicateNumber.cs" initialLine="22" containingFunctionPresentation="lambda expression inside method 'IntMaxAdd'">
+            <startOffsets>
+              <option value="621" />
+            </startOffsets>
+            <endOffsets>
+              <option value="644" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

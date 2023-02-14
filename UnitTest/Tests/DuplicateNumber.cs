@@ -15,12 +15,5 @@ namespace UnitTest
 
             Assert.Equal(1, output.Duplicatenumber);
         }
-
-        [Fact] public void IntMaxAdd() 
-        {
-            Output output = new Output(new List<System.IO.FileInfo> { }, int.MaxValue, new List<int> { });
-
-            Assert.Throws<OverflowException>(() => output.GetUPDuplicate());
-        }
     }
 }

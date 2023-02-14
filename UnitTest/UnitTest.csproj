@@ -61,6 +61,7 @@
     <Compile Include="Tests\DuplicateNumber.cs" />
     <Compile Include="Tests\FileListTest.cs" />
     <Compile Include="Tests\LinesAddTest.cs" />
+    <Compile Include="Tests\OutputAddTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

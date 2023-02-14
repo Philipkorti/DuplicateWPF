@@ -66,10 +66,7 @@ namespace UnitTest
                                                             new Output(new List<FileInfo>(), 0, new List<int>())
                                                         }
                                                     };
-
             // Act
-
-
             Assert.Throws<ArgumentNullException>(() => DuplicateCheck.OutputAdd(output, text, file));
             // Assert
 
