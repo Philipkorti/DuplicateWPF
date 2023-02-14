@@ -123,7 +123,7 @@ namespace ConfigPrototyp
             Dictionary<string, Output> output = new Dictionary<string, Output>();
             List<string> fileList = new List<string>();
 
-            string ignorefile = IgnoreFile.CreateIgnoreFile(filepath);
+            string ignorefile = IgnoreFile.CreateIgnoreFile(Environment.CurrentDirectory);
             // Get all files in the directory
             GetFileList.GetFileNames(filepath, filetype, out fileList);
             FilesAdd.Files(fileList, ignorefile, out List<FilesRead> files);

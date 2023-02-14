@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aee9800f-b5a6-411a-bf56-f584f4b53312" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConfigPrototyp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConfigPrototyp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/bin/Debug/ConfigPrototyp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/bin/Debug/ConfigPrototyp.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/bin/Debug/ConfigPrototyp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/bin/Debug/ConfigPrototyp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigPrototyp/obj/Debug/ConfigPrototyp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest/Tests/DoubleCheckTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/Tests/DoubleCheckTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTest/Tests/FileListTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/Tests/FileListTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +108,7 @@
       <workItem from="1676312348913" duration="1563000" />
       <workItem from="1676317777030" duration="1138000" />
       <workItem from="1676358046655" duration="1276000" />
+      <workItem from="1676359828548" duration="1646000" />
     </task>
     <task id="LOCAL-00001" summary="Unittest">
       <created>1676276321027</created>
@@ -164,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676318884464</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add OutputTest">
+      <created>1676360121356</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676360121356</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +194,8 @@
     <MESSAGE value="workspace" />
     <MESSAGE value="Bug fixes Color highlighting and DoubleCheck doubel entrie of the same file. Add Tests for DoubleCheck. Rename LinesAddTest." />
     <MESSAGE value="Add Folder for Unit Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Folder for Unit Tests" />
+    <MESSAGE value="Add OutputTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add OutputTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -224,17 +227,17 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/UnitTest/Tests/DuplicateNumber.cs</url>
-          <line>22</line>
-          <properties documentPath="C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\Duplicate\UnitTest\Tests\DuplicateNumber.cs" initialLine="22" containingFunctionPresentation="lambda expression inside method 'IntMaxAdd'">
+          <url>file://$PROJECT_DIR$/ClassesDuplikate/Services/DuplicateCheck.cs</url>
+          <line>35</line>
+          <properties documentPath="C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\Duplicate\ClassesDuplikate\Services\DuplicateCheck.cs" initialLine="35" containingFunctionPresentation="method 'DoubleCheck'">
             <startOffsets>
-              <option value="621" />
+              <option value="1223" />
             </startOffsets>
             <endOffsets>
-              <option value="644" />
+              <option value="1281" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

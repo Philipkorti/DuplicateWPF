@@ -32,8 +32,11 @@ namespace ClassFiles.Services
                 {
                     Text firstFileText = files[i].FileText[y];
                     FilesRead firstfile = files[i];
-                    FilesRead secendFile = files[i + 1];
-                    OutputCheck(output, firstFileText, firstfile, secendFile);
+                    for (int x = 0; x < files.Count - 1; x++)
+                    {
+                        FilesRead secendFile = files[x + 1];
+                        OutputCheck(output, firstFileText, firstfile, secendFile);
+                    }
                 }
             }
         }
@@ -77,7 +80,9 @@ namespace ClassFiles.Services
                         {
                             OutputAdd(output, firstFileText, firstFile);
                         }
+
                     }
+
                 }
             }
             else
