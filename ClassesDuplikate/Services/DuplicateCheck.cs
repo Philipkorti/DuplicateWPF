@@ -32,7 +32,7 @@ namespace ClassFiles.Services
                 {
                     Text firstFileText = files[i].FileText[y];
                     FilesRead firstfile = files[i];
-                    for (int x = 0; x < files.Count - 1; x++)
+                    for (int x = i; x < files.Count - 1; x++)
                     {
                         FilesRead secendFile = files[x + 1];
                         OutputCheck(output, firstFileText, firstfile, secendFile);
@@ -73,14 +73,14 @@ namespace ClassFiles.Services
                     if (!output.ContainsKey(firstFileText.FileText))
                     {
                         output.Add(firstFileText.FileText, new Output(new List<FileInfo>() { firstFile.FileInfo }, 1, new List<int>() { firstFileText.LineNumber }));
+                        OutputAdd(output, secendFile.FileText[k], secendFile);
                     }
                     else
                     {
                         if (!output[firstFileText.FileText].FileName.Contains(firstFile.FileInfo))
                         {
-                            OutputAdd(output, firstFileText, firstFile);
+                             OutputAdd(output, firstFileText, firstFile);
                         }
-
                     }
 
                 }
@@ -89,9 +89,8 @@ namespace ClassFiles.Services
             {
                 if (!output[firstFileText.FileText].FileName.Contains(firstFile.FileInfo))
                 {
-                   OutputAdd(output, firstFileText, firstFile);
+                    OutputAdd(output, firstFileText, firstFile);
                 }
-                
             }
         }
     }
