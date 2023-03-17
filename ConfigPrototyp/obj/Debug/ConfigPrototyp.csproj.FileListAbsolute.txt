@@ -130,3 +130,23 @@ C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\Duplic
 C:\Users\phili\OneDrive - HTBLuVA Mödling\Schule\3.Klasse\1.Semester\POS\Duplicate\ConfigPrototyp\obj\Debug\ConfigPrototyp.pdb
 C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\bin\Debug\ClassesDuplikate.dll
 C:\Users\lukas\OneDrive - HTBLuVA Mödling\Schule\5AAIFT\POS\DuplicateWPF\ConfigPrototyp\bin\Debug\ClassesDuplikate.pdb
+C:\Users\thaib\source\repos\github\ConfigPrototyp\bin\Debug\ConfigPrototyp.exe.config
+C:\Users\thaib\source\repos\github\ConfigPrototyp\bin\Debug\ConfigPrototyp.exe
+C:\Users\thaib\source\repos\github\ConfigPrototyp\bin\Debug\ConfigPrototyp.pdb
+C:\Users\thaib\source\repos\github\ConfigPrototyp\bin\Debug\ClassesDuplikate.dll
+C:\Users\thaib\source\repos\github\ConfigPrototyp\bin\Debug\log4net.dll
+C:\Users\thaib\source\repos\github\ConfigPrototyp\bin\Debug\ClassesDuplikate.pdb
+C:\Users\thaib\source\repos\github\ConfigPrototyp\bin\Debug\log4net.xml
+C:\Users\thaib\source\repos\github\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.AssemblyReference.cache
+C:\Users\thaib\source\repos\github\ConfigPrototyp\obj\Debug\MainWindow.g.cs
+C:\Users\thaib\source\repos\github\ConfigPrototyp\obj\Debug\App.g.cs
+C:\Users\thaib\source\repos\github\ConfigPrototyp\obj\Debug\ConfigPrototyp_MarkupCompile.cache
+C:\Users\thaib\source\repos\github\ConfigPrototyp\obj\Debug\ConfigPrototyp_MarkupCompile.lref
+C:\Users\thaib\source\repos\github\ConfigPrototyp\obj\Debug\MainWindow.baml
+C:\Users\thaib\source\repos\github\ConfigPrototyp\obj\Debug\ConfigPrototyp.g.resources
+C:\Users\thaib\source\repos\github\ConfigPrototyp\obj\Debug\ConfigPrototyp.Properties.Resources.resources
+C:\Users\thaib\source\repos\github\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.GenerateResource.cache
+C:\Users\thaib\source\repos\github\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.CoreCompileInputs.cache
+C:\Users\thaib\source\repos\github\ConfigPrototyp\obj\Debug\ConfigPrototyp.csproj.CopyComplete
+C:\Users\thaib\source\repos\github\ConfigPrototyp\obj\Debug\ConfigPrototyp.exe
+C:\Users\thaib\source\repos\github\ConfigPrototyp\obj\Debug\ConfigPrototyp.pdb

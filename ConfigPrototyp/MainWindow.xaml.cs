@@ -5,15 +5,14 @@ using System.Configuration;
 using System.Windows;
 using System.Windows.Forms;
 using ClassFiles;
+using ClassFiles.Services;
+using ClassFiles.Classes;
 using System.Windows.Controls;
 using DataGrid = System.Windows.Controls.DataGrid;
 using System;
 using System.Reflection;
 using System.IO;
 using System.Windows.Documents;
-using ClassFiles;
-using ClassFiles.Classes;
-using ClassFiles.Services;
 
 namespace ConfigPrototyp
 {
@@ -28,14 +27,21 @@ namespace ConfigPrototyp
         /// Initializes a new instance of the <see cref="MainWindow" /> class.
         /// </summary>
         ///
+
+
         bool check = true;
+
+       
+
         public MainWindow()
         {
             this.InitializeComponent();
 
-            UebersichtFiles.MaxColumnWidth = 200;
-            UebersichtFiles.MinColumnWidth = 100;
+
+            UebersichtFiles.MaxColumnWidth = 600;
+            UebersichtFiles.MinColumnWidth = 40;
             UebersichtFiles.ColumnHeaderHeight = 35;
+
         }
 
         /// <summary>
@@ -51,7 +57,7 @@ namespace ConfigPrototyp
             string[] sA;
             string filetype = fileTyp.Text;
             string filepath = dataPath.Text;
-            
+
             WpfMethods c = new WpfMethods();
             //update the Config File
             c.Update(filetype, filepath);
@@ -61,6 +67,9 @@ namespace ConfigPrototyp
             cBox.ItemsSource = sA;
             fileTyp.Text = "";
         }
+
+
+
 
         /// <summary>
         /// When the window is loaded, get the information from the config file.
@@ -120,15 +129,24 @@ namespace ConfigPrototyp
             //string filetype = TbFiletype.Text;
             string filetype = "*." + TbFiletype.Text;
             string filepath = dataPath.Text;
-            Dictionary<string, Output> output = new Dictionary<string, Output>();
-            List<string> fileList = new List<string>();
 
-            string ignorefile = IgnoreFile.CreateIgnoreFile(Environment.CurrentDirectory);
+
+
+            string ignorefile = IgnoreFile.CreateIgnoreFile(filepath);
+
+
+
+
+
+
             // Get all files in the directory
-            GetFileList.GetFileNames(filepath, filetype, out fileList);
+            GetFileList.GetFileNames(filepath, filetype, out List<string> fileList);
             FilesAdd.Files(fileList, ignorefile, out List<FilesRead> files);
-            DuplicateCheck.DoubleCheck(files, out output);
+
+            DuplicateCheck.DoubleCheck(files, out Dictionary<string, Output> output);
             List<WritetoGrid> final = new List<WritetoGrid>();
+
+
             foreach (KeyValuePair<string, Output> variable in output)
             {
                 string filenames = "";
@@ -148,6 +166,8 @@ namespace ConfigPrototyp
 
         private void hideandshow_Click(object sender, RoutedEventArgs e)
         {
+           
+
             if (check)
             {
                
@@ -160,6 +180,7 @@ namespace ConfigPrototyp
                 check = true;
 
             }
+
         }
 
         private void Wrap_Loaded(object sender, RoutedEventArgs e)
@@ -213,7 +234,8 @@ namespace ConfigPrototyp
                 text = File.ReadAllText(updatedSplitwithoutlastrow[i]);
 
                 StackPanel stack = new StackPanel();
-                
+              
+
 
                 stack.Margin = new Thickness(5, 0, 5, 0);
               
@@ -238,9 +260,45 @@ namespace ConfigPrototyp
                 {
                     if (splitsec[f] != string.Empty)
                     {
-                        finalstring.Add(splitsec[f]);
+                        finalstring.Add(splitsec[f].ToLower());
                     }
                 }
+
+                for (int g = 0; g < finalstring.Count; g++)
+                {
+                    if (finalstring[g].Contains(duplicateValue))
+                    {
+                        if (finalstring[0].Contains(duplicateValue))
+                        {
+                            finalstring.RemoveRange(0, g);
+                            break;
+                        }
+                        else
+                        {
+                            finalstring.RemoveRange(0, g -1);
+                            break;
+                        }                   
+                    }                 
+                }
+
+                int length = finalstring.Count;
+
+                for (int z = 0; z < finalstring.Count; z++)
+                {
+                    if (finalstring[z].Contains(duplicateValue))
+                    {
+
+                        if (finalstring[length - 1].Contains(duplicateValue))
+                        {
+                            break;
+                        }
+                        else
+                        {
+                            finalstring.RemoveRange(z +1 ,finalstring.Count - z - 2);
+                        }
+                    }
+                }
+
 
                 string[] updatedArray = new string[finalstring.Count];
                 updatedArray = finalstring.ToArray();
@@ -250,9 +308,10 @@ namespace ConfigPrototyp
                 {
                     //erstelle Texbox
                     System.Windows.Controls.TextBox textbox = new System.Windows.Controls.TextBox();
+                    textbox.TextWrapping = TextWrapping.Wrap;
                     textbox.BorderThickness = new Thickness(0);
 
-                    if (updatedArray[k].ToLower().Contains(duplicateValue))
+                    if (updatedArray[k].Contains(duplicateValue))
                     {
                         textbox.Foreground = mediaBrush;
                         textbox.Text = updatedArray[k];
@@ -269,6 +328,18 @@ namespace ConfigPrototyp
                 counter++;
 
             }
+
+            
+
+
+           
+            
+            
+
+            
+
+            
+
+
         }
-    }
-}
+    } }
