@@ -155,12 +155,12 @@ namespace ConfigPrototyp
                 {
                     if (filenames != variable.Key)
                     {
-                        final.Add(new WritetoGrid() { duplicate = variable.Key, duplicatequantity = Convert.ToString(variable.Value.Duplicatenumber), fileNames = variable.Value.FileName[i].DirectoryName + @"\" + variable.Value.FileName[i].Name, linenumber = Convert.ToString(variable.Value.LineNumber[i]) });
+                        final.Add(new WritetoGrid() { duplicate = variable.Key, duplicatefun = variable.Key, duplicatequantity = Convert.ToString(variable.Value.Duplicatenumber), fileNames = variable.Value.FileName[i].DirectoryName + @"\" + variable.Value.FileName[i].Name, linenumber = Convert.ToString(variable.Value.LineNumber[i]) });
                         filenames = variable.Key;
                     }
                     else
                     {
-                        final.Add(new WritetoGrid() { duplicate = "", duplicatequantity = "", fileNames = variable.Value.FileName[i].DirectoryName + @"\" + variable.Value.FileName[i].Name, linenumber = Convert.ToString(variable.Value.LineNumber[i])});
+                        final.Add(new WritetoGrid() { duplicate = "", duplicatefun= variable.Key, duplicatequantity = "", fileNames = variable.Value.FileName[i].DirectoryName + @"\" + variable.Value.FileName[i].Name, linenumber = Convert.ToString(variable.Value.LineNumber[i])});
                     }
                 }
                 // Put Dictionary Data to List of WritetoGrid class
@@ -197,10 +197,10 @@ namespace ConfigPrototyp
         private void UebersichtFiles_SelectedCellsChanged(object sender, SelectedCellsChangedEventArgs e)
         {
 
-            final.Children.Clear();
+            //final.Children.Clear();
             string propertyValue = "";
             string duplicateValue = "";
-
+            
 
 
             DataGrid dg = sender as DataGrid;
@@ -211,7 +211,7 @@ namespace ConfigPrototyp
             {
                 dynamic dynamicObject = cellContent;
                 propertyValue = dynamicObject.fileNames;
-                duplicateValue = dynamicObject.duplicate;
+                duplicateValue = dynamicObject.duplicatefun;
 
             }
             

@@ -15,6 +15,7 @@ namespace ConfigPrototyp.Class
         public string linenumber { get; set; }
 
         public string path { get; set; }
+        public string duplicatefun { get; set; }
 
     }
 }
