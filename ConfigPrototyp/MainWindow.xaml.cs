@@ -264,40 +264,40 @@ namespace ConfigPrototyp
                     }
                 }
 
-                for (int g = 0; g < finalstring.Count; g++)
-                {
-                    if (finalstring[g].Contains(duplicateValue))
-                    {
-                        if (finalstring[0].Contains(duplicateValue))
-                        {
-                            finalstring.RemoveRange(0, g);
-                            break;
-                        }
-                        else
-                        {
-                            finalstring.RemoveRange(0, g -1);
-                            break;
-                        }                   
-                    }                 
-                }
+                //for (int g = 0; g < finalstring.Count; g++)
+                //{
+                //    if (finalstring[g].Contains(duplicateValue))
+                //    {
+                //        if (finalstring[0].Contains(duplicateValue))
+                //        {
+                //            finalstring.RemoveRange(0, g);
+                //            break;
+                //        }
+                //        else
+                //        {
+                //            finalstring.RemoveRange(0, g - 1);
+                //            break;
+                //        }
+                //    }                 
+                //}
 
-                int length = finalstring.Count;
+                //int length = finalstring.Count;
 
-                for (int z = 0; z < finalstring.Count; z++)
-                {
-                    if (finalstring[z].Contains(duplicateValue))
-                    {
+                //for (int z = 0; z < finalstring.Count; z++)
+                //{
+                //    if (finalstring[z].Contains(duplicateValue))
+                //    {
 
-                        if (finalstring[length - 1].Contains(duplicateValue))
-                        {
-                            break;
-                        }
-                        else
-                        {
-                            finalstring.RemoveRange(z +1 ,finalstring.Count - z - 2);
-                        }
-                    }
-                }
+                //        if (finalstring[length - 1].Contains(duplicateValue))
+                //        {
+                //            break;
+                //        }
+                //        else
+                //        {
+                //            finalstring.RemoveRange(z + 1 ,finalstring.Count - z - 2);
+                //        }
+                //    }
+                //}
 
 
                 string[] updatedArray = new string[finalstring.Count];
@@ -310,6 +310,7 @@ namespace ConfigPrototyp
                     System.Windows.Controls.TextBox textbox = new System.Windows.Controls.TextBox();
                     textbox.TextWrapping = TextWrapping.Wrap;
                     textbox.BorderThickness = new Thickness(0);
+                    textbox.IsReadOnly = true;
 
                     if (updatedArray[k].Contains(duplicateValue))
                     {

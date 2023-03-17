@@ -140,17 +140,17 @@
 
             </DataGrid>
         </Grid>
-
-        <Grid Margin="5,20,0,0" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" x:Name="final">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="285"></ColumnDefinition>
-                <ColumnDefinition Width="285"></ColumnDefinition>
-                <ColumnDefinition Width="285"></ColumnDefinition>
-                <ColumnDefinition Width="285"></ColumnDefinition>
-                <ColumnDefinition Width="285"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            
-            
-        </Grid>
+        <ScrollViewer Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3">
+            <Grid Margin="5,20,0,0"   x:Name="final" ShowGridLines="True">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition  MaxWidth="400"></ColumnDefinition>
+                    <ColumnDefinition  MaxWidth="400"></ColumnDefinition>
+                    <ColumnDefinition  MaxWidth="400"></ColumnDefinition>
+                    <ColumnDefinition  MaxWidth="400"></ColumnDefinition>
+                    <ColumnDefinition  MaxWidth="400"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+            </Grid>
+        </ScrollViewer>
+        
     </Grid>
 </Window>
