@@ -234,10 +234,11 @@ namespace ConfigPrototyp
 
             int counter = 0;
 
-            for (int i = 0; i < updatedSplitwithoutlastrow.Length; i++)
+            for (int i = 0; i < updatedSplitwithoutlastrow.Length+1; i++)
             {
-                
-                text = File.ReadAllText(updatedSplitwithoutlastrow[i]);
+
+                //text = File.ReadAllText(updatedSplitwithoutlastrow[i]);
+                text = File.ReadAllText(propertyValue);
 
                 StackPanel stack = new StackPanel();
               
@@ -249,7 +250,7 @@ namespace ConfigPrototyp
                 final.Children.Add(stack);
 
                 System.Windows.Controls.TextBox header = new System.Windows.Controls.TextBox();
-                header.Text = updatedSplitwithoutlastrow[i] + "\n";
+                //header.Text = updatedSplitwithoutlastrow[i] + "\n";
                 header.BorderThickness = new Thickness(0,0,0,0);
                 header.FontWeight = FontWeights.Bold;
                 
