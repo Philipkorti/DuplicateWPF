@@ -13,6 +13,7 @@ using System;
 using System.Reflection;
 using System.IO;
 using System.Windows.Documents;
+using System.Linq;
 
 namespace ConfigPrototyp
 {
@@ -197,7 +198,7 @@ namespace ConfigPrototyp
         private void UebersichtFiles_SelectedCellsChanged(object sender, SelectedCellsChangedEventArgs e)
         {
 
-            //final.Children.Clear();
+            final.Children.Clear();
             string propertyValue = "";
             string duplicateValue = "";
             
@@ -214,11 +215,22 @@ namespace ConfigPrototyp
                 duplicateValue = dynamicObject.duplicatefun;
 
             }
+
+            List<string> a = new List<string>();
+            foreach (DataGridCellInfo cells in dg.SelectedCells)
+            {
+                a.Add(((ConfigPrototyp.Class.WritetoGrid)cells.Item).fileNames);
+            }
+
+            List<string> noDupes = a.Distinct().ToList();
+
+            string[] split = noDupes.ToArray();
+
             
-            string[] split = propertyValue.Split('\n');
+
             string text = string.Empty;
 
-            string[] updatedSplitwithoutlastrow = new string[split.Length - 1];
+            //string[] updatedSplitwithoutlastrow = new string[split.Length - 1];
 
             
             System.Drawing.SolidBrush drawingBrush = new System.Drawing.SolidBrush(System.Drawing.Color.Red);
@@ -227,22 +239,20 @@ namespace ConfigPrototyp
             System.Drawing.SolidBrush drawingBrushs = new System.Drawing.SolidBrush(System.Drawing.Color.NavajoWhite);
             System.Windows.Media.Brush mediaBrushs = new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromArgb(drawingBrushs.Color.A, drawingBrushs.Color.R, drawingBrushs.Color.G, drawingBrushs.Color.B));
 
-            for (int i = 0; i < updatedSplitwithoutlastrow.Length; i++)
-            {
-                updatedSplitwithoutlastrow[i] = split[i];
-            }
+            //for (int i = 0; i < updatedSplitwithoutlastrow.Length; i++)
+            //{
+            //    updatedSplitwithoutlastrow[i] = split[i];
+            //}
 
             int counter = 0;
 
-            for (int i = 0; i < updatedSplitwithoutlastrow.Length+1; i++)
+            for (int i = 0; i < split.Length; i++)
             {
 
                 //text = File.ReadAllText(updatedSplitwithoutlastrow[i]);
-                text = File.ReadAllText(propertyValue);
+                text = File.ReadAllText(split[i]);
 
                 StackPanel stack = new StackPanel();
-              
-
 
                 stack.Margin = new Thickness(5, 0, 5, 0);
               
