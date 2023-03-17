@@ -19,8 +19,11 @@ namespace ConfigPrototyp
     /// <summary>
     /// Interaction logic for MainWindow
     /// </summary>
+    /// 
+    
     public partial class MainWindow : Window
     {
+        public List<string> liste = new List<string>();
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         /// <summary>
         /// This is the main window
@@ -197,7 +200,7 @@ namespace ConfigPrototyp
         private void UebersichtFiles_SelectedCellsChanged(object sender, SelectedCellsChangedEventArgs e)
         {
 
-            //final.Children.Clear();
+            final.Children.Clear();
             string propertyValue = "";
             string duplicateValue = "";
             
@@ -214,12 +217,13 @@ namespace ConfigPrototyp
                 duplicateValue = dynamicObject.duplicatefun;
 
             }
+            liste.Add(propertyValue);
             
             string[] split = propertyValue.Split('\n');
             string text = string.Empty;
 
-            string[] updatedSplitwithoutlastrow = new string[split.Length - 1];
-
+            string[] updatedSplitwithoutlastrow = new string[liste.Count];
+            
             
             System.Drawing.SolidBrush drawingBrush = new System.Drawing.SolidBrush(System.Drawing.Color.Red);
             System.Windows.Media.Brush mediaBrush = new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromArgb(drawingBrush.Color.A, drawingBrush.Color.R, drawingBrush.Color.G, drawingBrush.Color.B));
@@ -227,18 +231,19 @@ namespace ConfigPrototyp
             System.Drawing.SolidBrush drawingBrushs = new System.Drawing.SolidBrush(System.Drawing.Color.NavajoWhite);
             System.Windows.Media.Brush mediaBrushs = new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromArgb(drawingBrushs.Color.A, drawingBrushs.Color.R, drawingBrushs.Color.G, drawingBrushs.Color.B));
 
-            for (int i = 0; i < updatedSplitwithoutlastrow.Length; i++)
-            {
-                updatedSplitwithoutlastrow[i] = split[i];
-            }
+            //for (int i = 0; i < updatedSplitwithoutlastrow.Length; i++)
+            //{
+            //    updatedSplitwithoutlastrow[i] = split[i];
+            //}
 
             int counter = 0;
+            updatedSplitwithoutlastrow = liste.ToArray();
 
-            for (int i = 0; i < updatedSplitwithoutlastrow.Length+1; i++)
+            for (int i = 0; i < updatedSplitwithoutlastrow.Length; i++)
             {
 
                 //text = File.ReadAllText(updatedSplitwithoutlastrow[i]);
-                text = File.ReadAllText(propertyValue);
+                text = File.ReadAllText(updatedSplitwithoutlastrow[i]);
 
                 StackPanel stack = new StackPanel();
               
