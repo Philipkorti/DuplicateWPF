@@ -13,6 +13,7 @@ using System;
 using System.Reflection;
 using System.IO;
 using System.Windows.Documents;
+using System.Linq;
 
 namespace ConfigPrototyp
 {
@@ -150,15 +151,21 @@ namespace ConfigPrototyp
             foreach (KeyValuePair<string, Output> variable in output)
             {
                 string filenames = "";
-                string linenumbers = "";
                 
                 for (int i = 0; i < variable.Value.FileName.Count; i++)
                 {
-                    filenames = filenames + variable.Value.FileName[i].DirectoryName + @"\" + variable.Value.FileName[i].Name + "\n";
-                    linenumbers = linenumbers+ variable.Value.LineNumber[i]+ "\n";
+                    if (filenames != variable.Key)
+                    {
+                        final.Add(new WritetoGrid() { duplicate = variable.Key, duplicatefun = variable.Key, duplicatequantity = Convert.ToString(variable.Value.Duplicatenumber), fileNames = variable.Value.FileName[i].DirectoryName + @"\" + variable.Value.FileName[i].Name, linenumber = Convert.ToString(variable.Value.LineNumber[i]) });
+                        filenames = variable.Key;
+                    }
+                    else
+                    {
+                        final.Add(new WritetoGrid() { duplicate = "", duplicatefun= variable.Key, duplicatequantity = "", fileNames = variable.Value.FileName[i].DirectoryName + @"\" + variable.Value.FileName[i].Name, linenumber = Convert.ToString(variable.Value.LineNumber[i])});
+                    }
                 }
                 // Put Dictionary Data to List of WritetoGrid class
-                final.Add(new WritetoGrid() { duplicate = variable.Key, duplicatequantity = variable.Value.Duplicatenumber, fileNames = filenames, linenumber = linenumbers });
+                
             }
 
             UebersichtFiles.ItemsSource = final;
@@ -194,7 +201,7 @@ namespace ConfigPrototyp
             final.Children.Clear();
             string propertyValue = "";
             string duplicateValue = "";
-
+            
 
 
             DataGrid dg = sender as DataGrid;
@@ -205,14 +212,25 @@ namespace ConfigPrototyp
             {
                 dynamic dynamicObject = cellContent;
                 propertyValue = dynamicObject.fileNames;
-                duplicateValue = dynamicObject.duplicate;
+                duplicateValue = dynamicObject.duplicatefun;
 
             }
+
+            List<string> a = new List<string>();
+            foreach (DataGridCellInfo cells in dg.SelectedCells)
+            {
+                a.Add(((ConfigPrototyp.Class.WritetoGrid)cells.Item).fileNames);
+            }
+
+            List<string> noDupes = a.Distinct().ToList();
+
+            string[] split = noDupes.ToArray();
+
             
-            string[] split = propertyValue.Split('\n');
+
             string text = string.Empty;
 
-            string[] updatedSplitwithoutlastrow = new string[split.Length - 1];
+            //string[] updatedSplitwithoutlastrow = new string[split.Length - 1];
 
             
             System.Drawing.SolidBrush drawingBrush = new System.Drawing.SolidBrush(System.Drawing.Color.Red);
@@ -221,21 +239,20 @@ namespace ConfigPrototyp
             System.Drawing.SolidBrush drawingBrushs = new System.Drawing.SolidBrush(System.Drawing.Color.NavajoWhite);
             System.Windows.Media.Brush mediaBrushs = new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromArgb(drawingBrushs.Color.A, drawingBrushs.Color.R, drawingBrushs.Color.G, drawingBrushs.Color.B));
 
-            for (int i = 0; i < updatedSplitwithoutlastrow.Length; i++)
-            {
-                updatedSplitwithoutlastrow[i] = split[i];
-            }
+            //for (int i = 0; i < updatedSplitwithoutlastrow.Length; i++)
+            //{
+            //    updatedSplitwithoutlastrow[i] = split[i];
+            //}
 
             int counter = 0;
 
-            for (int i = 0; i < updatedSplitwithoutlastrow.Length; i++)
+            for (int i = 0; i < split.Length; i++)
             {
-                
-                text = File.ReadAllText(updatedSplitwithoutlastrow[i]);
+
+                //text = File.ReadAllText(updatedSplitwithoutlastrow[i]);
+                text = File.ReadAllText(split[i]);
 
                 StackPanel stack = new StackPanel();
-              
-
 
                 stack.Margin = new Thickness(5, 0, 5, 0);
               
@@ -243,7 +260,7 @@ namespace ConfigPrototyp
                 final.Children.Add(stack);
 
                 System.Windows.Controls.TextBox header = new System.Windows.Controls.TextBox();
-                header.Text = updatedSplitwithoutlastrow[i] + "\n";
+                //header.Text = updatedSplitwithoutlastrow[i] + "\n";
                 header.BorderThickness = new Thickness(0,0,0,0);
                 header.FontWeight = FontWeights.Bold;
                 
