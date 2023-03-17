@@ -150,15 +150,21 @@ namespace ConfigPrototyp
             foreach (KeyValuePair<string, Output> variable in output)
             {
                 string filenames = "";
-                string linenumbers = "";
                 
                 for (int i = 0; i < variable.Value.FileName.Count; i++)
                 {
-                    filenames = filenames + variable.Value.FileName[i].DirectoryName + @"\" + variable.Value.FileName[i].Name + "\n";
-                    linenumbers = linenumbers+ variable.Value.LineNumber[i]+ "\n";
+                    if (filenames != variable.Key)
+                    {
+                        final.Add(new WritetoGrid() { duplicate = variable.Key, duplicatequantity = Convert.ToString(variable.Value.Duplicatenumber), fileNames = variable.Value.FileName[i].DirectoryName + @"\" + variable.Value.FileName[i].Name, linenumber = Convert.ToString(variable.Value.LineNumber[i]) });
+                        filenames = variable.Key;
+                    }
+                    else
+                    {
+                        final.Add(new WritetoGrid() { duplicate = "", duplicatequantity = "", fileNames = variable.Value.FileName[i].DirectoryName + @"\" + variable.Value.FileName[i].Name, linenumber = Convert.ToString(variable.Value.LineNumber[i])});
+                    }
                 }
                 // Put Dictionary Data to List of WritetoGrid class
-                final.Add(new WritetoGrid() { duplicate = variable.Key, duplicatequantity = variable.Value.Duplicatenumber, fileNames = filenames, linenumber = linenumbers });
+                
             }
 
             UebersichtFiles.ItemsSource = final;

@@ -10,7 +10,7 @@ namespace ConfigPrototyp.Class
     {
 
         public string duplicate { get; set; }
-        public int duplicatequantity { get; set; }
+        public string duplicatequantity { get; set; }
         public string fileNames { get; set; }
         public string linenumber { get; set; }
 
