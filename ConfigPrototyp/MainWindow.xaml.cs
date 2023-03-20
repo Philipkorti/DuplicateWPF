@@ -43,6 +43,7 @@ namespace ConfigPrototyp
             UebersichtFiles.MinColumnWidth = 40;
             UebersichtFiles.ColumnHeaderHeight = 35;
 
+          
         }
 
         /// <summary>
@@ -358,6 +359,16 @@ namespace ConfigPrototyp
 
             
 
+
+        }
+
+        private void gotoignorefile_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void gotoignorePath_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     } }
