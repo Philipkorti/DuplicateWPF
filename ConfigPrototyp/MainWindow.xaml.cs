@@ -14,6 +14,7 @@ using System.Reflection;
 using System.IO;
 using System.Windows.Documents;
 using System.Linq;
+using ClassesDuplikate.Services;
 
 namespace ConfigPrototyp
 {
@@ -67,6 +68,7 @@ namespace ConfigPrototyp
             c.CombiBoxRefresh(out sA);
             //save the Refreshed Combibox in the combibox
             cBox.ItemsSource = sA;
+            
             fileTyp.Text = "";
         }
 
@@ -89,6 +91,7 @@ namespace ConfigPrototyp
             c.CombiBoxRefresh(out sA);
             //save the Refreshed Combibox in the combibox
             cBox.ItemsSource = sA;
+            cBox.SelectedIndex = 1;
             // variable to open the config file 
             var configFile = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
             dataPath.Text = configFile.AppSettings.Settings["filePath"].Value;
@@ -132,14 +135,9 @@ namespace ConfigPrototyp
             string filetype = "*." + TbFiletype.Text;
             string filepath = dataPath.Text;
 
-
-
+            // Create Ignore Files
             string ignorefile = IgnoreFile.CreateIgnoreFile(filepath);
-
-
-
-
-
+            string ignorePathsFile = IgnorePaths.CreateIgnorePathFile(filepath);
 
             // Get all files in the directory
             GetFileList.GetFileNames(filepath, filetype, out List<string> fileList);
@@ -174,8 +172,6 @@ namespace ConfigPrototyp
 
         private void hideandshow_Click(object sender, RoutedEventArgs e)
         {
-           
-
             if (check)
             {
                
@@ -203,8 +199,6 @@ namespace ConfigPrototyp
             string propertyValue = "";
             string duplicateValue = "";
             
-
-
             DataGrid dg = sender as DataGrid;
             DataGridCellInfo cell = dg.CurrentCell;
             object cellContent = cell.Item;
@@ -267,8 +261,7 @@ namespace ConfigPrototyp
                 
                 header.FontSize = 11;
                 stack.Children.Add(header);
-
-              
+                             
 
                 string[] splitsec = text.Split('\n', '\r');
 
@@ -347,19 +340,6 @@ namespace ConfigPrototyp
                 counter++;
 
             }
-
-            
-
-
-           
-            
-            
-
-            
-
-            
-
-
         }
 
         private void gotoignorefile_Click(object sender, RoutedEventArgs e)
@@ -371,4 +351,5 @@ namespace ConfigPrototyp
         {
 
         }
-    } }
+    } 
+}

@@ -18,7 +18,7 @@ namespace ClassFiles.Services
         /// </returns>
         public static string CreateIgnoreFile(string currentDirectory)
         {
-            string ignorefile = Path.Combine(currentDirectory, @"ignore.txt");
+            string ignorefile = Path.Combine(currentDirectory + "/ignore", @"ignorelines.txt");
             string ignorefilePath = Path.GetFullPath(ignorefile);
 
             if (!File.Exists(ignorefile))

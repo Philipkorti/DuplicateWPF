@@ -54,6 +54,7 @@
     <Compile Include="Services\FilesAdd.cs" />
     <Compile Include="Services\GetFileList.cs" />
     <Compile Include="Services\IgnoreFile.cs" />
+    <Compile Include="Services\IgnorePaths.cs" />
     <Compile Include="Services\LinesAdd.cs" />
     <Compile Include="Services\Log.cs" />
   </ItemGroup>
