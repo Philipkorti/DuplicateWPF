@@ -150,21 +150,24 @@ namespace ConfigPrototyp
             foreach (KeyValuePair<string, Output> variable in output)
             {
                 string filenames = "";
-                
+                int point = filepath.Length;
+
+
                 for (int i = 0; i < variable.Value.FileName.Count; i++)
                 {
+                    string shortname = variable.Value.FileName[i].DirectoryName;
+                    shortname = shortname.Remove(0, point);
                     if (filenames != variable.Key)
                     {
-                        final.Add(new WritetoGrid() { duplicate = variable.Key, duplicatefun = variable.Key, duplicatequantity = Convert.ToString(variable.Value.Duplicatenumber), fileNames = variable.Value.FileName[i].DirectoryName + @"\" + variable.Value.FileName[i].Name, linenumber = Convert.ToString(variable.Value.LineNumber[i]) });
+                        final.Add(new WritetoGrid() { duplicate = variable.Key, duplicatefun = variable.Key, duplicatequantity = Convert.ToString(variable.Value.Duplicatenumber), fileNames = shortname + @"\" + variable.Value.FileName[i].Name, linenumber = Convert.ToString(variable.Value.LineNumber[i]) });
                         filenames = variable.Key;
                     }
                     else
                     {
-                        final.Add(new WritetoGrid() { duplicate = "", duplicatefun= variable.Key, duplicatequantity = "", fileNames = variable.Value.FileName[i].DirectoryName + @"\" + variable.Value.FileName[i].Name, linenumber = Convert.ToString(variable.Value.LineNumber[i])});
+                        final.Add(new WritetoGrid() { duplicate = "", duplicatefun = variable.Key, duplicatequantity = "", fileNames = shortname + @"\" + variable.Value.FileName[i].Name, linenumber = Convert.ToString(variable.Value.LineNumber[i]) });
                     }
                 }
                 // Put Dictionary Data to List of WritetoGrid class
-                
             }
 
             UebersichtFiles.ItemsSource = final;
@@ -245,7 +248,11 @@ namespace ConfigPrototyp
             {
 
                 //text = File.ReadAllText(updatedSplitwithoutlastrow[i]);
-                text = File.ReadAllText(split[i]);
+                text = dataPath.Text;
+                string test;
+                test = split[i];
+                text = text + test;
+                text = File.ReadAllText(text);
 
                 StackPanel stack = new StackPanel();
 
